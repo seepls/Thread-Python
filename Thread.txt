@@ -1,0 +1,26 @@
+thread of execution defined as smallest unit that can be  scheduled in an OS.
+threads contained with in a process. more than one thread can exist in a process.
+These threads share memory and state of the process . threads share value of the variable.
+
+two kinds :
+- kernel threads [part of OS]
+- user threads
+
+every process has atleast one thread , the process itself .
+a process can start multiple threads . OS executes these threads like parallel processes. if a single processor  , parallelism 
+achieved via thread scheduling .
+
+advantages:
+- on multiple CPU computers multiple thread programs run faster , threads run concurrently .
+- program can remain responsive to the input 
+- share memory of global variables.
+
+
+modules supporting usage of threads in python :
+- thread
+- threading
+
+thread is depriceated : hence lets start with threading .
+
+
+
