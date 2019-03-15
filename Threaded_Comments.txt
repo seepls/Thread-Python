@@ -1,3 +1,4 @@
 resources :
 https://github.com/HonzaKral/django-threadedcomments
 
+https://github.com/vosi/django-xcomments
